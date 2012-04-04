@@ -31,13 +31,13 @@ http://github.com/webtechnick
 # Migration Guide from 3.0 to 3.5:
 open a terminal and execute the following command:
   
-	$ cake schema create -path plugins/paypal_ipn/config/sql -name items
+	$ cake schema create -path plugins/paypal_ipn/config/schema -name items
 
 # Install:
 1. Copy plugin into your `/app/plugins/paypal_ipn` directory
 2. Run
 
-		$ cake schema create -path plugins/paypal_ipn/config/sql -name ipn
+		$ cake schema create -path plugins/paypal_ipn/config/schema -name ipn
 		
 3. Add the following into your /app/config/routes.php file (optional):
 
