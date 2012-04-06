@@ -148,12 +148,12 @@
 		</dd>
 		<dt<?php if ($i % 2 == 0) echo $class;?>><?php __('Option Name 1'); ?></dt>
 		<dd<?php if ($i++ % 2 == 0) echo $class;?>>
-			<?php echo $instantPaymentNotification['InstantPaymentNotification']['option_name_1']; ?>
+			<?php echo $instantPaymentNotification['InstantPaymentNotification']['option_name1']; ?>
 			&nbsp;
 		</dd>
 		<dt<?php if ($i % 2 == 0) echo $class;?>><?php __('Option Name 2'); ?></dt>
 		<dd<?php if ($i++ % 2 == 0) echo $class;?>>
-			<?php echo $instantPaymentNotification['InstantPaymentNotification']['option_name_2']; ?>
+			<?php echo $instantPaymentNotification['InstantPaymentNotification']['option_name2']; ?>
 			&nbsp;
 		</dd>
 		<dt<?php if ($i % 2 == 0) echo $class;?>><?php __('Option Selection1'); ?></dt>
